@@ -1,0 +1,2 @@
+"Mike", "Catcher", "MAJORS"
+"John", "Pitcher", "MINORS"
