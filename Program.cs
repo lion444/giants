@@ -14,17 +14,17 @@ namespace giants
         {
             System.Console.WriteLine("Hello World!");
             Program p = new Program();
-            p.eat("Bananas");
+           
             p.fileName = args[0];
             p.readFile(p.fileName);
-
-        }
-
-        public void eat(String food){
-            Console.WriteLine($"Im eating {food}");
-            Player p1 = new Player(){name="Mike Lewon", position="Pitcher", level =Player.Level.MAJORS };
-            p1.printPlayer();
-            
+            MyList ml = new MyList();
+            ml.doListStuff();
+            MyModulus ms = new MyModulus();
+            ms.processMod();
+            MyArrays ma = new MyArrays();
+            ma.process();
+            MyHashStuff hs = new MyHashStuff();
+            hs.process();
 
         }
 
